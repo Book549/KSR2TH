@@ -1,0 +1,11 @@
+# Thai segmentation, POS tagging and the TNC word-frequency table used to rank
+# Karen -> Thai candidates. The translator runs without it - it falls back to a
+# dictionary-driven longest-match segmenter - but segmentation is noticeably
+# worse, so install it.
+pythainlp>=5.0
+
+# build_lexicon.py only: reads the dictionary workbook.
+openpyxl>=3.1
+
+# evaluate_rules.py only: BLEU and chrF.
+sacrebleu>=2.4

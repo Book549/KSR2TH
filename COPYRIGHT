@@ -1,0 +1,20 @@
+KSR2TH - S'gaw Karen Translator Using a Rule-Based
+
+Copyright (C) 2026 Wattanachai Maijampa
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version. See LICENSE for the full text.
+
+The GNU AGPL-3.0 text in LICENSE is copyright (C) 2007 Free Software
+Foundation, Inc. and is included verbatim, as that license requires. It is the
+license document only and conveys no ownership of this program.
+
+Note on the dictionary data
+---------------------------
+rules/lexicon.csv is derived from a compiled S'gaw Karen dictionary workbook.
+Each row keeps its own source code (MOBI, BFAS-APK, PICDICT95, KTWG, DRUM-WL,
+JSS-COLOR, MNKOM, WIKI-LANG) in the `source` column. The copyright above covers
+this program and the work of compiling that data; it conveys no rights over the
+underlying lexicographic sources, which belong to their respective authors.

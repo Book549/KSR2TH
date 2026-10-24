@@ -1,0 +1,38 @@
+# Proper names that must be COPIED THROUGH, never translated.
+# One per line; '#' starts a comment. Add to this file as you meet new names -
+# it is the intended way to fix a name that came out mangled.
+#
+# Why a list is needed: Thai is written without spaces, so a name has nothing
+# to mark it as a name. Left to the segmenter, "สมชาย" splits into "สม" + "ชาย",
+# and "ชาย" is a real dictionary word ("male") - so half the name gets
+# translated and the output is wrong in a way that is hard to spot.
+สมชาย
+สมหญิง
+สมศักดิ์
+วิชัย
+ประเสริฐ
+นภาพร
+มาลี
+สุดา
+ปรีชา
+ธนาพร
+กมลพร
+วีระ
+อารีย์
+สุชาติ
+นารี
+ศิริพร
+บุญมี
+ชูใจ
+อนงค์
+พิมพา
+กรุงเทพ
+เชียงใหม่
+แม่ฮ่องสอน
+แม่สอด
+อุ้มผาง
+เชียงราย
+ลำปาง
+ขอนแก่น
+ภูเก็ต
+ประเทศไทย

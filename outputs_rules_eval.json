@@ -1,0 +1,40 @@
+{
+  "test.jsonl": {
+    "rows": 800,
+    "bleu": 58.89,
+    "chrf": 77.55,
+    "exact_match_pct": 50.1,
+    "mean_dictionary_coverage_pct": 90.9,
+    "fully_covered_sentences_pct": 68.6
+  },
+  "test_unseen_vocab.jsonl": {
+    "rows": 724,
+    "bleu": 72.98,
+    "chrf": 83.75,
+    "exact_match_pct": 66.6,
+    "mean_dictionary_coverage_pct": 97.9,
+    "fully_covered_sentences_pct": 93.6
+  },
+  "test.jsonl [kr2th]": {
+    "rows": 800,
+    "chrf": 71.97,
+    "exact_match_pct": 40.5,
+    "mean_dictionary_coverage_pct": 97.4
+  },
+  "test.jsonl [round trip th->kr->th]": {
+    "rows": 800,
+    "chrf": 87.01,
+    "exact_match_pct": 55.8
+  },
+  "test_unseen_vocab.jsonl [kr2th]": {
+    "rows": 724,
+    "chrf": 84.11,
+    "exact_match_pct": 64.8,
+    "mean_dictionary_coverage_pct": 98.5
+  },
+  "test_unseen_vocab.jsonl [round trip th->kr->th]": {
+    "rows": 724,
+    "chrf": 89.06,
+    "exact_match_pct": 72.0
+  }
+}

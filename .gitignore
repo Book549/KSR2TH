@@ -1,0 +1,21 @@
+# Virtual environments
+emv/
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Dictionary source workbook (not redistributable) and anything built from it
+*.xlsx
+*.xls
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
